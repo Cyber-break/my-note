@@ -10,6 +10,7 @@
 header{
     height: 60px;
     background-color:#0a2472;
+    width: 100%;
 }
 header h1{
     text-align: center;
@@ -50,8 +51,9 @@ nav ul li{
 }
             /*Aside*/
 .aside{
+    position: fixed;
     border: 4px solid #2c81ff;
-    height: 900px;
+    height: 530px;
     width: 100px;
     font-weight: bold;
     border-top: none;
@@ -59,8 +61,8 @@ nav ul li{
     margin-top: 5px;
     margin-bottom: 5px;
     display: grid;
-    margin-left: 455px;
-    border-radius: 4px;
+    margin-left: 460px;
+    border-radius: 10px;
 }
 .aside div{
     text-align: center;
@@ -80,7 +82,13 @@ nav ul li{
     margin-top: 8px;
     width: 280px;
 }
-
+.id_card div{
+    display: block;
+    color: black;
+    padding: 5px;
+    margin-left: 495px;
+    font-weight: bold;
+}
 
 
 
@@ -97,6 +105,14 @@ nav ul li{
     font-size: 18px;
 }
 
+
+
+        /*Chemistry Section*/
+.c-pages img{
+    width: 750px;
+    height: 890px;
+    margin: 20px 5px 0px 280px;
+}
 
 /* background : a6e1fa
   blue: 0e6ba8;
