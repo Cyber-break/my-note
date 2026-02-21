@@ -8,14 +8,17 @@
 }
         /*Header Section*/
 header{
-    height: 60px;
     background-color:#0a2472;
     width: 100%;
 }
-header h1{
+header div{
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:#0a2472;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 3px;
+    background-color: #0a2472;
+    display: flow;
+    padding: 20px;
+    font-size: xx-large;
 }
 
         /*Navigation Section*/
@@ -28,7 +31,7 @@ nav ul{
     list-style-type: none;
     background-color: #0e6ba8;
     display: grid;
-    grid-template-columns: 200px 200px 200px; /* 3 fixed columns */
+    grid-template-columns: 200px 200px 200px 200px; /* 3 fixed columns */
     height: 100%;
     align-content: center;
     place-items: center;
@@ -53,7 +56,7 @@ nav ul li{
 .aside{
     position: fixed;
     border: 4px solid #2c81ff;
-    height: 530px;
+    height: 515px;
     width: 100px;
     font-weight: bold;
     border-top: none;
@@ -63,12 +66,15 @@ nav ul li{
     display: grid;
     margin-left: 460px;
     border-radius: 10px;
+    align-items: center;
+    margin-left: 1150px;
 }
 .aside div{
     text-align: center;
     font-size: 16px;
     margin-top: 5px;
     color: #001c55;
+    
 }
             /*Identity Card*/
 .id_card{
@@ -112,8 +118,68 @@ nav ul li{
     width: 750px;
     height: 890px;
     margin: 20px 5px 0px 280px;
+    border: 5px solid #7ac2cd;
+    box-shadow: 0px 4px 20px 6px #696988;
 }
 
+
+        /*Form Section*/
+.f-main{
+    /* display: flex; */
+    border: 17px solid #56b5c6;
+    width: 558px;
+    margin: auto;
+    color: black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 14px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 100, 0.9);
+}
+.f-top{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 8px;
+}
+.f-box{
+    width: 480px;
+    padding: 7px;
+    border: 2px solid black;
+    font-size: 16px;
+    color: black;
+    border-radius: 3px;
+    margin: 5px 0px 5px 0px;
+}
+#f-address{
+    width: 250px;
+    padding: 7px;
+    height: 60px;
+    color: black;
+    font-size: 16px;
+    border: 2px solid black;
+}
+.f-gender{
+    color: black;
+    margin: 5px 0px 5px 0px;
+}
+#submit{
+    color: #ff0000;
+    font-size: 17px;
+    padding: 9px;
+    font-weight: bold;
+    margin-left: 404px;
+    border-radius: 5px;
+    font-style: italic;
+}
+#submit:hover{
+    background-color: #0e6ba8;
+    color: white;
+}
 /* background : a6e1fa
   blue: 0e6ba8;
   dark blue: 0a2472;
